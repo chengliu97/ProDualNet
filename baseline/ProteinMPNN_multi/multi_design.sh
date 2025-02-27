@@ -11,10 +11,10 @@ python ./protein_mpnn_data_p.py \
         --chain_id_jsonl ./assigned_pdbs.jsonl \
         --fixed_positions_jsonl ./fixed_pdbs.jsonl \
         --out_folder ./1/ \
-        --num_seq_per_target 10 \
+        --num_seq_per_target 100 \
         --sampling_temp "0.1" \
         --seed 37 \
         --batch_size 1
 
 
-python main.py --checkpoint_path /dssg/home/acct-clsyzs/clsyzs/C1/ProteinMPNN_multi/vanilla_model_weights/v_48_020.pt --T 0.1 --design_num 2 --conformation_num 2 --output_path /dssg/home/acct-clsyzs/clsyzs/C1/test1_2025_2_17.fasta
+python main.py --checkpoint_path ./vanilla_model_weights/v_48_020.pt --T 0.1 --design_num 200 --conformation_num 2 --output_path ./test1_2025_2_17.fasta
