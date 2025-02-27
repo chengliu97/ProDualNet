@@ -1,6 +1,6 @@
 #!/bin/bash
 
-python ./helper_scripts/parse_multiple_chains.py --input_path=/dssg/home/acct-clsyzs/clsyzs/C1/ProteinMPNN_multi/dual_pdb --output_path=./test.jsonl
+python ./helper_scripts/parse_multiple_chains.py --input_path=./dual_pdb --output_path=./test.jsonl
 
 python ./helper_scripts/assign_fixed_chains.py --input_path=./test.jsonl --output_path=./assigned_pdbs.jsonl --chain_list "P"
 
@@ -17,4 +17,4 @@ python ./protein_mpnn_data_p.py \
         --batch_size 1
 
 
-python main.py --checkpoint_path /dssg/home/acct-clsyzs/clsyzs/C1/ProteinMPNN_multi/vanilla_model_weights/v_48_020.pt --T 0.1 --design_num 2 --conformation_num 2 --output_path /dssg/home/acct-clsyzs/clsyzs/C1/test1_2025_2_17.fasta
+python main.py --checkpoint_path ./vanilla_model_weights/v_48_020.pt --T 0.1 --design_num 2 --conformation_num 2 --output_path ./test1_2025_2_17.fasta
