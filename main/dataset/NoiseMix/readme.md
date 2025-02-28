@@ -5,7 +5,8 @@
 """
 We provide the processed dual-target experimental data and test datasets from the NoiseMix stage. 
 The links are as follows:
-https://drive.google.com/drive/folders/1-hIm_vwzXJAwDMJqAOuQJyYNQWVvFqVO?usp=drive_link
+
+Wait for preprint
 
 - x_train_multi.pt: Training data
 - x_test_multi.pt: Test data
