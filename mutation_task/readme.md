@@ -6,7 +6,7 @@ DMS_mut_produalnet_pre.ipynb is the evaluation process for the DMS_stability dat
 
 ProteinGym DMS evaluation is based on https://github.com/OATML-Markslab/ProteinGym.
 
-https://drive.google.com/drive/folders/1u-yKZglYbHhzckpHjW5uqc6mN0Ze0oAv?usp=drive_link
+DMS_stability, SKEMPI V2 database: https://drive.google.com/drive/folders/1u-yKZglYbHhzckpHjW5uqc6mN0Ze0oAv?usp=drive_link
 
 Ref:
 1. Notin, P. et al. Proteingym: Large-scale benchmarks for protein fitness prediction and design. Advances in Neural Information Processing Systems 36 (2024).
