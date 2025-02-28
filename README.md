@@ -11,3 +11,11 @@ The mutation_task folder is for a zero-shot protein function prediction task, in
 The baseline folder on my GitHub contains a modified multi-state design model based on ProteinMPNN, supporting multiple conformations.
 
 <img width="1773" alt="f1d" src="https://github.com/user-attachments/assets/c74fca2a-3af3-430f-a866-24b0913beaf0" />
+
+
+--------------------------------------------------------------------------------
+
+This project is based on ProteinMPNN/Pifold/esm/BERT-pytorch, under the MIT License.
+
+Source: https://github.com/dauparas/ProteinMPNN, https://github.com/A4Bio/PiFold, https://github.com/facebookresearch/esm, 
+https://github.com/codertimo/BERT-pytorch/tree/master
