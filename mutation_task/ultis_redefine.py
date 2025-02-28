@@ -281,7 +281,7 @@ class MegaScaleDataset(torch.utils.data.Dataset):
 
     def __init__(self, path1,path2, split):
         self.split = split
-        self.path = "/dssg/home/acct-clsyzs/clsyzs/C1/data_mega/mega/AlphaFold_model_PDBs/"
+        self.path = "./AlphaFold_model_PDBs/"
         df = pd.read_csv(path1, usecols=["ddG_ML", "mut_type", "WT_name", "aa_seq"])
         df = df.loc[df.ddG_ML != '-', :].reset_index(drop=True)
         df = df.loc[~df.mut_type.str.contains("ins") & ~df.mut_type.str.contains("del") & ~df.mut_type.str.contains(":"), :].reset_index(drop=True)
@@ -446,7 +446,7 @@ class MegaScaleDataset_ddG(torch.utils.data.Dataset):
 
     def __init__(self, path1, path2, split):
         self.split = split
-        self.path = "/dssg/home/acct-clsyzs/clsyzs/C1/data_mega/mega/AlphaFold_model_PDBs/"
+        self.path = "./AlphaFold_model_PDBs/"
         df = pd.read_csv(path1, usecols=["ddG_ML", "mut_type", "WT_name", "aa_seq"])
         df = df.loc[df.ddG_ML != '-', :].reset_index(drop=True)
         df = df.loc[
@@ -555,7 +555,7 @@ class MegaScaleDataset_ddG_sample(torch.utils.data.Dataset):
 
     def __init__(self, path1, path2, split):
         self.split = split
-        self.path = "/dssg/home/acct-clsyzs/clsyzs/C1/data_mega/mega/AlphaFold_model_PDBs/"
+        self.path = "./AlphaFold_model_PDBs/"
         df = pd.read_csv(path1, usecols=["ddG_ML", "mut_type", "WT_name", "aa_seq"])
         df = df.loc[df.ddG_ML != '-', :].reset_index(drop=True)
         df = df.loc[
