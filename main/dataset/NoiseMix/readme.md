@@ -10,7 +10,7 @@ Wait for preprint
 
 - x_train_multi.pt: Training data
 - x_test_multi.pt: Test data
-- x_test_sim_rmsd.pt / x_train_sim_rmsd.pt: RMSD values for the homologous and conformational changes of two protein receptors in the dataset under dual-target conditions
+- x_test_sim_rmsd.pt / x_train_sim_rmsd.pt: Similarity between the two receptors, and the Ca-RMSD when the designed protein binds to both receptors
 - dict_x_test_30_159.pt, dict_x_test_sim_50_rmsd_2.pt, lst_diff_inter_38_data.pt: Test sets for three different conditions
 
 Additionally, different subsets of the test set can be re-extracted based on various conditions using the function dual_target_dataset.ipynb from the test set. For example, subsets can be based on sequence similarity between two receptors and the conformational changes (Ca-RMSD) observed when the designed protein binds to different receptors.
