@@ -2,6 +2,8 @@ For evaluating thermostability mutations, we utilized two databases: ProteinGym 
 
 Furthermore, to assess performance in predicting the fitness of complex mutations, we selected data from the SKEMPI V2 database[4]. This subset focused on antibody mutations, containing over 100 entries, and included 11 proteins, 1,877 single-point mutations, and 675 higher-order mutations.
 
+DMS_mut_produalnet_pre.ipynb is the evaluation process for the DMS_stability dataset. skempi_v2_ddg_produalnet_pre.ipynb is the DDG evaluation process for 11 antibody systems. The comparison method execution scripts are in the baseline folder.
+
 Ref:
 1. Notin, P. et al. Proteingym: Large-scale benchmarks for protein fitness prediction and design. Advances in Neural Information Processing Systems 36 (2024).
 2. Tsuboyama, K. et al. Mega-scale experimental analysis of protein folding stability in biology and design. Nature 620, 434-444 (2023).
