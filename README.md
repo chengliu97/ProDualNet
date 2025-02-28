@@ -1,4 +1,4 @@
-# ProDualNet:Dual-Target Protein Sequence Design Method Based on Protein Language Model with ProDualNet
+# ProDualNet: Dual-Target Protein Sequence Design Method Based on Protein Language Model and Structure Model with ProDualNet
 
 Waiting for the preprint 
 
