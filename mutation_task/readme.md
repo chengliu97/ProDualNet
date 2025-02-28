@@ -4,6 +4,8 @@ Furthermore, to assess performance in predicting the fitness of complex mutation
 
 DMS_mut_produalnet_pre.ipynb is the evaluation process for the DMS_stability dataset. skempi_v2_ddg_produalnet_pre.ipynb is the DDG evaluation process for 11 antibody systems. The comparison method execution scripts are in the baseline folder.
 
+ProteinGym DMS evaluation is based on https://github.com/OATML-Markslab/ProteinGym.
+
 https://drive.google.com/drive/folders/1u-yKZglYbHhzckpHjW5uqc6mN0Ze0oAv?usp=drive_link
 
 Ref:
