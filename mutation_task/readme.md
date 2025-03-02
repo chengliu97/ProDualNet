@@ -8,6 +8,9 @@ ProteinGym DMS evaluation is based on https://github.com/OATML-Markslab/ProteinG
 
 DMS_stability, SKEMPI V2 database: https://drive.google.com/drive/folders/1u-yKZglYbHhzckpHjW5uqc6mN0Ze0oAv?usp=drive_link
 
+- Since this evaluation is based on the weights of the ProDualNet pretraining model, use produalnet_pretrain.pt.
+
+  
 Ref:
 1. Notin, P. et al. Proteingym: Large-scale benchmarks for protein fitness prediction and design. Advances in Neural Information Processing Systems 36 (2024).
 2. Tsuboyama, K. et al. Mega-scale experimental analysis of protein folding stability in biology and design. Nature 620, 434-444 (2023).
