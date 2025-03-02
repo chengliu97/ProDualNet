@@ -1,6 +1,6 @@
 For evaluating thermostability mutations, we utilized two databases: ProteinGym DMS[1] and DMS_stability[2,3]. From ProteinGym DMS, we selected 65 proteins with mutations linked to thermostability, which included 67,636 single-point mutations and 65,579 higher-order mutations. For the DMS_stability dataset, we worked with their pre-processed data, encompassing 298 proteins and a total of 271,231 single-point mutations.
 
-Furthermore, to assess performance in predicting the fitness of complex mutations, we selected data from the SKEMPI V2 database[4]. This subset focused on antibody mutations, containing over 100 entries, and included 11 proteins, 1,877 single-point mutations, and 675 higher-order mutations.
+Furthermore, to assess performance in predicting the fitness of complex mutations, we selected 11 protein systems from the SKEMPI V2 database[4]. This subset focused on antibody mutations, containing over 100 entries, and included 11 proteins, 1,877 single-point mutations, and 675 higher-order mutations.
 
 DMS_mut_produalnet_pre.ipynb is the evaluation process for the DMS_stability dataset. skempi_v2_ddg_produalnet_pre.ipynb is the DDG evaluation process for 11 antibody systems. The comparison method execution scripts are in the baseline folder.
 
