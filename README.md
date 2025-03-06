@@ -15,6 +15,7 @@ Install Python>=3.0, PyTorch, Numpy.
 - The current model only supports the design of natural amino acids.
 
 --------------------------------------------------------------------------------
+- You may not use the material for commercial purposes.
 
 This project is based on ProteinMPNN/Pifold/esm/BERT-pytorch, under their License.
 
