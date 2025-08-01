@@ -1,6 +1,6 @@
-# ProDualNet: Dual-Target Protein Sequence Design Method Based on Protein Language Model and Structure Model
+# ProDualNet: Dual-Target Protein Sequence Design Method Based on Protein Language Model and Structure Model, Briefings in Bioinformatics, 2025.
 
-Waiting for the preprint 
+Important update: We have successfully designed a dual agonist using this model and are currently progressing with efficacy experiments. Please wait for our preprint—August 1, 2025.
 
 Install Python>=3.0, PyTorch, Numpy.
 
