@@ -17,6 +17,7 @@ Similar to recent work on conformational bias in mutations.
 
 - The current model only supports the design of natural amino acids.
 
+@: sjtu6597802@sjtu.edu.cn;
 --------------------------------------------------------------------------------
 - You may not use the material for commercial purposes.
 
