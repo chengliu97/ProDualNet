@@ -2,12 +2,14 @@
 # [2] Ensemble Strategy for Robust AI-Driven Peptide Design，2025.
 -----------------------
 Latest update: December 20, 2025
+--------------------------
 
 After several months of validation and trial-and-error, we have observed that the mean architecture does not appear to be the optimal choice. The cross_attention architecture seems to perform better in certain scenarios, such as in some agonist design cases. Unfortunately, we no longer have the resources to conduct further in vitro experimental validation. Although we suspect few may read this, it must be said: protein design is truly challenging.
 
 We have recently updated a preprint, primarily focused on peptide drug design, with the aim of exploring how to better leverage existing tools to meet the more urgent design demands in industrial development. Due to experimental cost constraints, we were unable to establish a comprehensive experimental platform encompassing protein, cellular, and animal models for rigorous quantitative analysis.
 
 Overall, for current structure-based design and screening tools, adopting a multi-path integrated design strategy can help improve success rates across different experimental stages. For example, in the design of PTHR agonists, the best-performing design path in the zebrafish efficacy model failed completely in rat PK studies, while another design path yielded positive hits.
+
 -------------------------------
 
 Important update: We have successfully designed a dual agonist using this model and are currently progressing with efficacy experiments. Please wait for our preprint—August 1, 2025.
