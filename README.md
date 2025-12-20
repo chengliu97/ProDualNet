@@ -1,4 +1,5 @@
 # ProDualNet: Dual-Target Protein Sequence Design Method Based on Protein Language Model and Structure Model, Briefings in Bioinformatics, 2025.
+# Ensemble Strategy for Robust AI-Driven Peptide Design，2025.
 
 In vitro experimental results indicate that the mean (default architecture) does not appear to be the optimal weight. We provide trained weights for several alternative strategies
 
