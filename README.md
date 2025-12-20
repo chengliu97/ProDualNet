@@ -8,7 +8,7 @@ After several months of validation and trial-and-error, we have observed that th
 
 We have recently updated a preprint, primarily focused on peptide drug design, with the aim of exploring how to better leverage existing tools to meet the more urgent design demands in industrial development. Due to experimental cost constraints, we were unable to establish a comprehensive experimental platform encompassing protein, cellular, and animal models for rigorous quantitative analysis.
 
-Overall, for current structure-based design and screening tools, adopting a multi-path integrated design strategy can help improve success rates across different experimental stages. For example, in the design of PTHR agonists, the best-performing design path in the zebrafish efficacy model failed completely in rat PK studies, while another design path yielded positive hits [2].
+Overall, for current structure-based design and screening tools, adopting a multi-path integrated design strategy can help improve success rates across different experimental stages. For example, in the design of PTHR agonists, the best-performing design path in the zebrafish efficacy model failed completely in rat PK studies, while another design path yielded positive hits [2]. We conducted this research in collaboration with Intelligent Medicine Original (Shanghai) Co., Ltd., Shanghai, China.
 
 [2] Ensemble Strategy for Robust AI-Driven Peptide Design，2025.
 
